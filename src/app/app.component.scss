@@ -1,0 +1,30 @@
+.navbar{
+    color: black;
+    background-color: rgb(2, 11, 66);
+    border-bottom: solid 1px black;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.background{
+    height: 500px;
+    background-image: url(./../assets/813087.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    text-decoration: line-through;
+}
